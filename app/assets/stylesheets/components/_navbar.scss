@@ -4,20 +4,29 @@
   background-color:white;
   z-index:10px;
   position:fixed;
-  box-shadow: 0px 0px 10px 10px;
+  box-shadow: 0px 0px 10px 10px rgba(171, 171, 171, .301);
 
 }
-
-.navbar-title {
-  background-color: red;
-  color:grey;
-    h1 {
-      font-size: 30px;
-    }
-}
-
 .navbar-container {
   display:flex;
+  justify-content: space-between;
+
+  .navbar-title {
+  background-color: grey;
+  color:white;
+  width:300px;
+  height:70px;
+  text-align:center;
+    h1 {
+      font-family:Athiti;
+      font-size: 30px;
+      padding:15px;
+    }
+  }
+  .menu-navbar {
+  font-family:Athiti;
+  font-size: 20px;
+  padding:30px;
+  margin-right:10px;
+  }
 }
-
-
