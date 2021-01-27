@@ -24,6 +24,6 @@
 #   <<: *default
 #   database: db/production.sqlite3
 
-production:
-  <<: *default
-  url: <%= ENV['POSTGRESQL_ADDON_URI'] %>
+# production:
+#   <<: *default
+#   url: <%= ENV['POSTGRESQL_ADDON_URI'] %>
