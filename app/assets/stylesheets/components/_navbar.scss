@@ -1,4 +1,19 @@
 .navbar {
   width:100%;
-  background-color:blue;
+  height:70px;
+  background-color:white;
 }
+
+.navbar-title {
+  background-color: red;
+  color:black;
+    h1 {
+      font-size: 30px;
+    }
+}
+
+.navbar-container {
+  display:flex;
+}
+
+

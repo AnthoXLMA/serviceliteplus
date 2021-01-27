@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Serviceliteplus</title>
+    <title>Lite Services</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -10,6 +10,15 @@
   </head>
 
   <body>
-    <%= yield %>
+      <%= render 'shared/navbar' %>
+      <%= render 'shared/flashes' %>
+      <div class="container-site">
+            <%= image_tag "image_banner.jpg" %>
+        <div class="page-title">
+          <h1>Lite Services</h1>
+        </div>
+      </div>
+      <%= yield %>
+      <%= render 'shared/footer' %>
   </body>
 </html>
