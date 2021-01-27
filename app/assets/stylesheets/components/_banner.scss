@@ -1,0 +1,25 @@
+.banner {
+  height:350px;
+  background-color:#167FFB;
+  // background-image: 'image_banner.jpg'
+  h1 {
+    color:white;
+    text-align: center;
+  }
+  h2 {
+    color:white;
+    text-align: center;
+  }
+  p {
+    color:white;
+    text-align:center;
+  }
+  img {
+    height:260px;
+    width:100
+  }
+  .page-title {
+    padding: 110px;
+    height:100px;
+  }
+}
