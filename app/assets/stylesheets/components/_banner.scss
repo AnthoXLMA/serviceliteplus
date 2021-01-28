@@ -1,5 +1,5 @@
 .banner {
-  height:368px;
+  height:390px;
   // margin-top:100px;
   background-size: cover;
   // background-position:center;
@@ -22,7 +22,22 @@
     width:100
   }
   .page-title {
-    padding: 50px;
-    height:100px;
-  }
+    padding: 40px;
+    height:10px;
+    h1 {
+      font-size: 50px;
+      font-family: oswald;
+      font-weight:bold;
+    }
+    h2{
+      font-size: 40px;
+      font-family: Athiti;
+      font-weight:bold;
+    }
+    p{
+      font-size: 20px;
+      font-family: Athiti;
+      font-weight:lighter;
+    }
+    }
 }
