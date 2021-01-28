@@ -1,8 +1,9 @@
 .card-container {
   display:flex;
   // align-content:space-between;
+  margin-top:30px;
   margin-right:20px;
-  margin-left:50px;
+  margin-left:20px;
   .cards-1 {
     width:250px;
     margin-right: auto;
@@ -23,4 +24,17 @@
   margin-left:auto;
   margin-right:auto;
   text-align:center;
+  align-items:baseline;
+
+  a {
+    color:white;
+    font-family:Athiti;
+    font-size: 25px;
+    font-weight:bold;
+
+  }
+  a:hover{
+    text-decoration: none;
+    color:black;
+  }
 }
