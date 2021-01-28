@@ -1,10 +1,13 @@
 .banner {
-  height:350px;
-  background-color:#167FFB;
-  // background-image: 'image_banner.jpg'
+  height:368px;
+  // margin-top:100px;
+  background-size: cover;
+  // background-position:center;
+  background-image: url('image_banner.jpg');
   h1 {
     color:white;
     text-align: center;
+    font-weight:bold;
   }
   h2 {
     color:white;
