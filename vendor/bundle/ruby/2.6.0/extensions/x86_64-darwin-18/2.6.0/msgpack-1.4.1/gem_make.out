@@ -1,5 +1,5 @@
 current directory: /Users/anthony/code/AnthoXLMA/serviceliteplus/vendor/bundle/ruby/2.6.0/gems/msgpack-1.4.1/ext/msgpack
-/Users/anthony/.rvm/rubies/ruby-2.6.6/bin/ruby -I /Users/anthony/.rvm/rubies/ruby-2.6.6/lib/ruby/site_ruby/2.6.0 -r ./siteconf20210127-93683-mwjxb0.rb extconf.rb
+/Users/anthony/.rbenv/versions/2.6.6/bin/ruby -I /Users/anthony/.rbenv/versions/2.6.6/lib/ruby/site_ruby/2.6.0 -r ./siteconf20210129-67179-6vgyda.rb extconf.rb
 checking for ruby/st.h... yes
 checking for st.h... yes
 checking for rb_str_replace() in ruby.h... yes
@@ -13,10 +13,10 @@ checking for rb_hash_clear() in ruby.h... yes
 creating Makefile
 
 current directory: /Users/anthony/code/AnthoXLMA/serviceliteplus/vendor/bundle/ruby/2.6.0/gems/msgpack-1.4.1/ext/msgpack
-make "DESTDIR=" clean
+make DESTDIR\= clean
 
 current directory: /Users/anthony/code/AnthoXLMA/serviceliteplus/vendor/bundle/ruby/2.6.0/gems/msgpack-1.4.1/ext/msgpack
-make "DESTDIR="
+make DESTDIR\=
 compiling buffer.c
 compiling buffer_class.c
 compiling extension_value_class.c
@@ -28,16 +28,13 @@ compiling rbinit.c
 compiling rmem.c
 compiling unpacker.c
 compiling unpacker_class.c
-unpacker_class.c:137:1: warning: function 'raise_unpacker_error' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
-{
-^
 unpacker_class.c:225:14: warning: unused function 'Unpacker_peek_next_type' [-Wunused-function]
 static VALUE Unpacker_peek_next_type(VALUE self)
              ^
-2 warnings generated.
+1 warning generated.
 compiling unpacker_ext_registry.c
 linking shared-object msgpack/msgpack.bundle
 
 current directory: /Users/anthony/code/AnthoXLMA/serviceliteplus/vendor/bundle/ruby/2.6.0/gems/msgpack-1.4.1/ext/msgpack
-make "DESTDIR=" install
-/usr/local/opt/coreutils/bin/ginstall -c -m 0755 msgpack.bundle ./.gem.20210127-93683-mjqj58/msgpack
+make DESTDIR\= install
+/usr/local/bin/ginstall -c -m 0755 msgpack.bundle ./.gem.20210129-67179-1tmyanj/msgpack
