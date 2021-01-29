@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Club Auto</title>
+    <title>1ère agence de digitalisation en France - Lite Services</title>
       <%= csrf_meta_tags %>
       <%= csp_meta_tag %>
       <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -26,6 +26,15 @@
   <body>
       <%= render 'shared/navbar' %>
       <%= render 'shared/flashes' %>
+        <div class="banner">
+          <div class="page-title">
+            <h1>Lite Services</h1>
+            <h2>L'ère du bien-être au digital</h2>
+              <p>Services informatiques à domicile</p>
+              <p>Création & webdesign</p>
+              <p>1ère Agence de dématérialisation en France</p>
+          </div>
+        </div>
       <%= yield %>
       <%= render 'shared/footer' %>
   </body>
