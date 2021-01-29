@@ -1,12 +1,12 @@
-current directory: /Users/anthony/code/AnthoXLMA/serviceliteplus/vendor/bundle/ruby/2.6.0/gems/sassc-2.4.0/ext
-/Users/anthony/.rvm/rubies/ruby-2.6.6/bin/ruby -I /Users/anthony/.rvm/rubies/ruby-2.6.6/lib/ruby/site_ruby/2.6.0 -r ./siteconf20210127-93683-6a1cn.rb extconf.rb
+current directory: /Users/anthony/code/AnthoXLMA/basketball-globetrotters/vendor/bundle/ruby/2.6.0/gems/sassc-2.4.0/ext
+/Users/anthony/.rbenv/versions/2.6.6/bin/ruby -I /Users/anthony/.rbenv/versions/2.6.6/lib/ruby/site_ruby/2.6.0 -r ./siteconf20210129-69499-1pbvjsu.rb extconf.rb
 creating Makefile
 
-current directory: /Users/anthony/code/AnthoXLMA/serviceliteplus/vendor/bundle/ruby/2.6.0/gems/sassc-2.4.0/ext
-make "DESTDIR=" clean
+current directory: /Users/anthony/code/AnthoXLMA/basketball-globetrotters/vendor/bundle/ruby/2.6.0/gems/sassc-2.4.0/ext
+make DESTDIR\= clean
 
-current directory: /Users/anthony/code/AnthoXLMA/serviceliteplus/vendor/bundle/ruby/2.6.0/gems/sassc-2.4.0/ext
-make "DESTDIR="
+current directory: /Users/anthony/code/AnthoXLMA/basketball-globetrotters/vendor/bundle/ruby/2.6.0/gems/sassc-2.4.0/ext
+make DESTDIR\=
 compiling ./libsass/src/ast.cpp
 compiling ./libsass/src/ast2c.cpp
 compiling ./libsass/src/ast_fwd_decl.cpp
@@ -75,6 +75,6 @@ compiling ./libsass/src/util_string.cpp
 compiling ./libsass/src/values.cpp
 linking shared-object sassc/libsass.bundle
 
-current directory: /Users/anthony/code/AnthoXLMA/serviceliteplus/vendor/bundle/ruby/2.6.0/gems/sassc-2.4.0/ext
-make "DESTDIR=" install
-/usr/local/opt/coreutils/bin/ginstall -c -m 0755 libsass.bundle ./.gem.20210127-93683-1x9jgsy/sassc
+current directory: /Users/anthony/code/AnthoXLMA/basketball-globetrotters/vendor/bundle/ruby/2.6.0/gems/sassc-2.4.0/ext
+make DESTDIR\= install
+/usr/local/bin/ginstall -c -m 0755 libsass.bundle ./.gem.20210129-69499-1ciuou0/sassc
