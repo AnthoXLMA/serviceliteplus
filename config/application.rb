@@ -18,8 +18,7 @@
 #   end
 # end
 
-
-#TEST FROM ANOTHER CODE
+# #TEST FROM ANOTHER CODE
 require_relative 'boot'
 
 require 'rails/all'
