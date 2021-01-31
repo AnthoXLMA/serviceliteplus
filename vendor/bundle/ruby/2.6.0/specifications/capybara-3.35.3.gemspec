@@ -1,16 +1,16 @@
 # -*- encoding: utf-8 -*-
-# stub: capybara 3.35.1 ruby lib
+# stub: capybara 3.35.3 ruby lib
 
 Gem::Specification.new do |s|
   s.name = "capybara".freeze
-  s.version = "3.35.1"
+  s.version = "3.35.3"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0".freeze) if s.respond_to? :required_rubygems_version=
   s.metadata = { "changelog_uri" => "https://github.com/teamcapybara/capybara/blob/master/History.md", "source_code_uri" => "https://github.com/teamcapybara/capybara" } if s.respond_to? :metadata=
   s.require_paths = ["lib".freeze]
   s.authors = ["Thomas Walpole".freeze, "Jonas Nicklas".freeze]
   s.cert_chain = ["gem-public_cert.pem".freeze]
-  s.date = "2021-01-26"
+  s.date = "2021-01-30"
   s.description = "Capybara is an integration testing tool for rack based web applications. It simulates how a user would interact with a website".freeze
   s.email = ["twalpole@gmail.com".freeze, "jonas.nicklas@gmail.com".freeze]
   s.homepage = "https://github.com/teamcapybara/capybara".freeze

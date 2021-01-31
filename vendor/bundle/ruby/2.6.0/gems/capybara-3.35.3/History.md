@@ -1,5 +1,18 @@
+# Version 3.35.3
+Release date: 2021-01-29
+
+### Fixed
+* Just a release to have the correct dates in the History.md in released gem
+
+# Version 3.35.2
+Release date: 2021-01-29
+
+### Fixed
+
+* Selenium deprecation suppressor with Selenium 3.x
+
 # Version 3.35.1
-Release date: 2020-01-26
+Release date: 2021-01-26
 
 ### Fixed
 
@@ -7,7 +20,7 @@ Release date: 2020-01-26
 * 'Capybara.test_id' usage with the :button selector - Issue #2443
 
 # Version 3.35.0
-Release date: 2020-01-25
+Release date: 2021-01-25
 
 ### Added
 
