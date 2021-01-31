@@ -1,8 +1,10 @@
-.card-container {
-  display:flex;
+.container-particulier {
+  // display:flex;
   // align-content:space-between;
-  margin-top:auto;
-  margin-right:auto;
+  margin-top: 70px;
+  margin-bottom:-90px;
+  padding:2%;
+  // margin-right:auto;
   // margin-left:auto;
 }
 
@@ -33,10 +35,11 @@
 .resume {
   margin-left:30px;
   h1{
-    color:black;
+    color:white;
     font-family:oswald;
     font-size: 50px;
     font-weight:bold;
+    margin-top:-110px;
   }
 }
 
