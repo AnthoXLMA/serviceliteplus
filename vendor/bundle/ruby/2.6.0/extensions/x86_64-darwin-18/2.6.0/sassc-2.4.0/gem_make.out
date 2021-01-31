@@ -1,5 +1,5 @@
 current directory: /Users/anthony/code/AnthoXLMA/serviceliteplus/vendor/bundle/ruby/2.6.0/gems/sassc-2.4.0/ext
-/Users/anthony/.rbenv/versions/2.6.6/bin/ruby -I /Users/anthony/.rbenv/versions/2.6.6/lib/ruby/2.6.0 -r ./siteconf20210131-70039-mgrt24.rb extconf.rb
+/Users/anthony/.rbenv/versions/2.6.6/bin/ruby -I /Users/anthony/.rbenv/versions/2.6.6/lib/ruby/2.6.0 -r ./siteconf20210131-84604-5pwmx3.rb extconf.rb
 creating Makefile
 
 current directory: /Users/anthony/code/AnthoXLMA/serviceliteplus/vendor/bundle/ruby/2.6.0/gems/sassc-2.4.0/ext
@@ -77,4 +77,4 @@ linking shared-object sassc/libsass.bundle
 
 current directory: /Users/anthony/code/AnthoXLMA/serviceliteplus/vendor/bundle/ruby/2.6.0/gems/sassc-2.4.0/ext
 make "DESTDIR=" install
-/usr/local/bin/ginstall -c -m 0755 libsass.bundle ./.gem.20210131-70039-xfzlju/sassc
+/usr/local/bin/ginstall -c -m 0755 libsass.bundle ./.gem.20210131-84604-fqmoqo/sassc
