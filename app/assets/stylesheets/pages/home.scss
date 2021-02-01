@@ -6,26 +6,35 @@
   margin-left:20px;
 }
 
+.blocks-colors{
+  display:flex;
+  margin-right:10px;
+
 .rdv-square {
-  background-color:#235ba7;
-  width:900px;
-  height:40px;
+  width:200px;
+  height:250px;
   margin-top:50px;
   margin-bottom:50px;
-  margin-left:auto;
-  margin-right:auto;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content:center;
   text-align:center;
   align-items:baseline;
-  a {
-    color:white;
-    font-family:Athiti;
-    font-size: 25px;
-    font-weight:bold;
-
-  }
-  a:hover{
-    text-decoration: none;
-    color:black;
+  border-radius: 15px;
+    h1{
+      font-family:oswald;
+      color:white;
+    }
+    a {
+      color:white;
+      font-family:Athiti;
+      font-size: 25px;
+      font-weight:bold;
+    }
+    a:hover{
+      text-decoration: none;
+      color:black;
+    }
   }
 }
 
