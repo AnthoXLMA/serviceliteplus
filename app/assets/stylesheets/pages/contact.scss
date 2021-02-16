@@ -2,17 +2,23 @@
   h1{
     font-family:oswald;
     font-size:50px;
-    color:white;
+    color:black;
+    font-weight:bold;
+    padding:30px;
   }
 }
 
 .card-text-contact{
+    text-align: justify;
+    margin-right:200px;
+    margin-left:200px;
   h1{
     text-align:center;
     width:600px;
     margin-right: auto;
     margin-left:auto;
     font-size:40px;
+    font-weight:bold;
     margin-top:20px;
     font-family:oswald;
   }
@@ -21,7 +27,7 @@
     width:600px;
     margin-right: auto;
     margin-left:auto;
-    font-size:30px;
+    font-size:25px;
     margin-top:20px;
     margin-bottom:70px;
     font-family:oswald;
@@ -33,12 +39,9 @@
     font-family:oswald;
   }
   a {
-    text-align:justify;
     width:600px;
-    font-size:20px;
-    // margin-left:auto;
-    // margin-right:auto;
+    font-size:15px;
     margin-top:20px;
-    font-family:oswald;
+    font-family:Maven Pro;
   }
 }
