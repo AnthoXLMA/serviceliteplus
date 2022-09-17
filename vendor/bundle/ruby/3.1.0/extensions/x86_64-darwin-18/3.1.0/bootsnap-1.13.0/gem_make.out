@@ -1,0 +1,15 @@
+current directory: /Users/anthony/code/AnthoXLMA/serviceliteplus/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.13.0/ext/bootsnap
+/Users/anthony/.rbenv/versions/3.1.2/bin/ruby -I /Users/anthony/.rbenv/versions/3.1.2/lib/ruby/3.1.0 -r ./siteconf20220917-20226-68dm4b.rb extconf.rb
+creating Makefile
+
+current directory: /Users/anthony/code/AnthoXLMA/serviceliteplus/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.13.0/ext/bootsnap
+make DESTDIR\= clean
+
+current directory: /Users/anthony/code/AnthoXLMA/serviceliteplus/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.13.0/ext/bootsnap
+make DESTDIR\=
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/anthony/code/AnthoXLMA/serviceliteplus/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.13.0/ext/bootsnap
+make DESTDIR\= install
+/usr/local/bin/ginstall -c -m 0755 bootsnap.bundle ./.gem.20220917-20226-6npl8q/bootsnap
