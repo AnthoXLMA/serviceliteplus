@@ -1,0 +1,12 @@
+.main-container {
+  width:100%;
+}
+.card-container {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap:50px;
+  // align-content:space-between;
+  margin-top:40px;
+  margin-right:20px;
+  margin-left:20px;
+}
