@@ -258,7 +258,6 @@ GEM
     zeitwerk (2.6.15)
 
 PLATFORMS
-
   x86_64-darwin-23
 
 DEPENDENCIES
