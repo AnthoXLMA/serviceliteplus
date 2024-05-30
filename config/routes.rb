@@ -6,5 +6,6 @@ Rails.application.routes.draw do
   get 'entreprises', to: 'pages#entreprises'
   get 'particuliers', to: 'pages#particuliers'
   get 'nos_services', to: 'pages#nos_services'
+  get 'realisations', to: 'pages#realisations'
   get 'recrutement', to: 'pages#recrutement'
 end
